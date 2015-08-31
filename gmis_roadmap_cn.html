@@ -124,7 +124,7 @@
 
 <p>为了实现这个目标，我们不得不先简单实现一个原型，命名为通用机器智能系统。它在这里充当PC机大脑的角色，只有一个类似IM的界面。</p>
 
-<p> <img src="Images/GMIS_Figure1.png" alt="mainwindow" /></p>
+<p> <img src="images/GMIS_Figure1.png" alt="mainwindow" /></p>
 
 <p>我们同时配套了一门类自然语言，称之为Final C。不用担心我们会强迫你学习另一门高级编程语言，在使用形式上，它已经和自然语言已经非常接近，所有输入都是一个由主谓宾短语组成的句子。</p>
 
@@ -154,7 +154,7 @@
 
 <p>我们说过，逻辑树实现了数据与行为的分离，当它执行任何逻辑时，都会提供一个管道流进这个逻辑，负责提供输入和取回输出，就像下图：</p>
 
-<p><img src="Images/GMIS_Figure2.png" alt="AdditionExample" /></p>
+<p><img src="images/GMIS_Figure2.png" alt="AdditionExample" /></p>
 
 <p>一个管道就像一个保存有数据的队列，当它进入一个本能之前，必须拥有和这个本能要求一致的数据，每一个本能如果需要数据，就会假定管道里的前N个数据就是自己所需的参数，并取出来使用。系统会自动检查，如果不匹配会中断执行。</p>
 
@@ -186,7 +186,7 @@
 
 <p>有了以上知识点，让我们为这个任务画张电路图：</p>
 
-<p> <img src="Images/GMIS_Figure3.png" alt="LoopSample" /></p>
+<p> <img src="images/GMIS_Figure3.png" alt="LoopSample" /></p>
 
 <p>图中的每一个命令都是GMIS的本能之一，相信读者会很容易从字面意思上理解它的功能。</p>
 
@@ -268,7 +268,7 @@ use diode 0, use resistor 1000;
 
 <p>你会在GMIS的Debug view发现这张图：</p>
 
-<p><img src="Images/GMIS_Figure4.png" alt="LogicTree" /></p>
+<p><img src="images/GMIS_Figure4.png" alt="LogicTree" /></p>
 
 <p>你输入的是线性表达的语言逻辑，但GMIS内部把它理解组装成一颗逻辑树来执行（或记忆），你可以按Step按钮一步步的执行我们上面提到的每一步。</p>
 
